@@ -1,5 +1,7 @@
 # Suminagashi Simulation
 
+> Public source preview: see [PUBLICATION.md](PUBLICATION.md) for actual checks, known failures and runtime limits.
+
 Реализация симуляции распространения чернил на воде (Suminagashi) в реальном времени с использованием GPU compute шейдеров.
 
 ## Описание
@@ -174,3 +176,8 @@ cargo run --release
 ## Благодарности
 
 Модель основана на физике Marangoni flow и методах численного моделирования жидкостей.
+
+
+## Public source status — 2026-10-29
+
+See [PUBLICATION.md](PUBLICATION.md) for the current verification scope, prototype limitations and runtime boundaries. Earlier audit checklists describe historical work.
